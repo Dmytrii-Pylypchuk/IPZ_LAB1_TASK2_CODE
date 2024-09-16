@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Функція для обчислення чисел Фібоначчі
 int fibonacci(int n) {
     if (n <= 1)
         return n;
@@ -22,7 +21,6 @@ int main() {
         }
         cout << endl;
 
-        // Запитуємо, чи бажає користувач повторити виконання
         cout << "Бажаєте повторити? (y/n): ";
         cin >> choice;
 
